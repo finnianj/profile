@@ -1,0 +1,71 @@
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00ABB3;
+}
+
+a{
+  text-decoration: none;
+  color: goldenrod;
+}
+
+a:hover{
+  opacity: 50%;
+  transition: 0.3s;
+}
+
+ul{
+  padding:10px;
+}
+
+li{
+
+  padding: 10px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  column-gap: 15px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #DEF5E5;
+  font-family: 'Poor Story', cursive;
+  font-size: large;
+  color: #00ABB3;
+
+}
+
+.white_card{
+  background: #FFF5E1;
+  padding: 30px;
+  width: 300px;
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: 10px 10px 5px #9ED5C5;
+  border-radius: 20px;
+  text-align: center;
+}
+
+button{
+  margin-bottom:10px;
+}
+
+
+@media (max-width: 390px) {
+  /* For a screen < 720px, this CSS will be read */
+  .white_card {
+    width: 200px;
+  }
+}
+
